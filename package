@@ -28,3 +28,19 @@ class Audi:
 from Bmw import Bmw 
 from Audi import Audi 
 
+########################Test class#########################################3
+
+# Import classes from your brand new package 
+from yourpackagename import Bmw 
+from yourpackagename import Audi 
+
+   
+# Create an object of Bmw class & call its method 
+ModBMW = Bmw() 
+ModBMW.outModels() 
+   
+# Create an object of Audi class & call its method 
+ModAudi = Audi() 
+ModAudi.outModels() 
+  
+
