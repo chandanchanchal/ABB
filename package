@@ -9,3 +9,17 @@ class Bmw:
 		print('These are the available models for BMW') 
 		for model in self.models: 
 			print('\t%s ' % model) 
+			
+			
+#################################################################################3
+
+class Audi: 
+  
+    def __init__(self): 
+        self.models = ['q7', 'a6', 'a8', 'a3'] 
+  
+    # A normal print function 
+    def outModels(self): 
+        print('These are the available models for Audi') 
+        for model in self.models: 
+            print('\t%s ' % model)
