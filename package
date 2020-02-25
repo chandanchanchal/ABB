@@ -76,6 +76,16 @@ im.rotate(310).show()
 
 TajMahal_gray = Image.open('TajMahal.jpg').convert('L')
 TajMahal_gray.show()
+############################################################################################
+#Import required library
+import cv2
+import numpy as np
+from matplotlib import pyplot as plt
+
+im = cv2.imread('TajMahal.jpg',cv2.IMREAD_GRAYSCALE)
+cv2.imshow('image',im)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 
 
