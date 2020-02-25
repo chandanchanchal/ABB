@@ -74,6 +74,9 @@ im = Image.open("TajMahal.jpg")
 #Image rotate & show
 im.rotate(310).show()
 
+TajMahal_gray = Image.open('TajMahal.jpg').convert('L')
+TajMahal_gray.show()
+
 
 
 
