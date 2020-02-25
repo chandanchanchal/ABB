@@ -111,6 +111,21 @@ Do Something Else
 Do Another Thing
     Log  I am doing another thing.......
 
+####################################################################################################
+*** Settings ***
+Documentation  This is some basic info about the whole suite
+Library  SeleniumLibrary
 
+*** Variables ***
+*** Test Cases ***
+User must sign in to check out
+    [Documentation]  This is some basic info about the test
+    [Tags]  Smoke
+    Open Browser  http://www.amazon.in  ie
+    sleep  5
+    Close Browser
+
+
+*** Keywords ***
 
 
