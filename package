@@ -53,3 +53,15 @@ def my_sum(my_integers):
 
 list_of_integers = [1, 2, 3]
 print(my_sum(list_of_integers))
+
+####################################################################
+# concatenate.py
+def concatenate(**kwargs):
+    result = ""    
+    for arg in kwargs:
+        result += arg
+    return result
+
+print(concatenate(a="Real", b="Python", c="Is", d="Great", e="!"))
+
+
