@@ -178,3 +178,19 @@ Begin Web Test
 
 End Web Test
     Close Browser
+    
+    
+   ###################################### Module file in python ##################################################
+   
+   import time
+
+
+class CustomLib:
+   ROBOT_LIBRARY_SCOPE =  'TEST_CASE'
+
+
+   def get_current_time_as_string(self):
+     localtime = time.localtime()
+     formatted_time = time.strftime("%m/%d/%Y, %H:%M:%S",localtime)
+     return formatted_time
+    
