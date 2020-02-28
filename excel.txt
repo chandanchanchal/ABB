@@ -1,0 +1,45 @@
+Excel Library
+=============
+**This test library provides keywords to allow opening, reading, writing and saving Excel files from Robot Framework.
+
+
+Pre-Requiste
+============
+Excel Library must be imported into your test suite
+
+
+Installation
+============
+pip install robotframework-excellibrary
+
+
+
+Some Important Write  Operation Keywords
+========================================
+
+1.Open Excel
+ ->Parameters:filename, useTempDir=False
+If the boolean useTempDir is set to true, depending on the operating system of the computer running the test the file will be opened in the Temp directory if the operating system is Windows or tmp directory if it is not.
+
+Example: Open Excel	C:\Python27\ExcelRobotTest\ExcelRobotTest.xls
+
+
+2.Create Excel Workbook 
+New Sheet Name (string)	The name of the new sheet added to the new workbook.
+
+Create Excel Workbook	mynewsheet			
+Save Excel	C:/Excels/mynewsheet.xls
+
+
+3.Put String To Cell
+sheetname, column, row, value
+
+4.Put Number to cell
+sheetname, column, row, value
+
+5.Put Date to cell
+sheetname, column, row, value
+dd.mm.yyyy
+
+
+			

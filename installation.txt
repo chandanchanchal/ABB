@@ -1,0 +1,11 @@
+https://robots-from-jupyter.github.io/robotkernel/notebooks/08%20Interactive%20WhiteLibrary.html
+
+Installation of AutoIt Library
+============================== 
+
+Pre-requisite
+-------------
+1.set HOMEDRIVE=C:
+2.Run cmd as Administrator
+
+Installation-> pip install robotframework-autoitlibrary
